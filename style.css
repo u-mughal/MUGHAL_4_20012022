@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -704,13 +704,17 @@ p {
     margin: auto auto auto auto;
 }
 
+.social a {
+    color: #000000!important;
+}
+
 h2 {
-    font-size: 26px;
+    font-size: 22px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 17px;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -741,6 +745,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -775,12 +780,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fce1d5!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #3F3F3F3F!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -810,19 +815,16 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url(img/dots-bg.webp);
 }
-
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url(img/lines-h2-bg.webp);
 }
-
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url(img/banniere-la-chouette-agence.webp);
 }
-
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url(img/image-de-presentation.webp);
 }
 
 @media (max-width: 1024px) {
