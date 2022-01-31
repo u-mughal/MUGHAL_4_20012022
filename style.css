@@ -740,7 +740,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -825,6 +825,11 @@ h4 {
 }
 .bg-presentation {
     background-image: url(img/image-de-presentation.webp);
+}
+
+.col-sm-4 ul li {
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 @media (max-width: 1024px) {
